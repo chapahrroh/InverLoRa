@@ -1,7 +1,7 @@
 #ifndef INVERLORA_SENSORTEMP_H
 #define INVERLORA_SENSORTEMP_H
 
-#include "puertoAnalogo.h"
+#include "Hardware/puertoAnalogo.h"
 
 namespace InverLoRa
 {

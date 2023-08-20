@@ -37,11 +37,11 @@ pico_enable_stdio_usb(InverLoRa 0)
 pico_add_extra_outputs(InverLoRa)
 
 # librerias standar de RP2040
-target_link_libraries(InverLoRa pico_stdlib hardware_adc)
+target_link_libraries(InverLoRa pico_stdlib hardware_adc hardware_spi)
 
 
 #LIBRERIAS EXCLUSIBAS DE inVERLORA  
-target_link_libraries(InverLoRa battery sensorTemp spi)
+target_link_libraries(InverLoRa battery sensorTemp spi LoRa)
 
 
 # Add the standard include files to the build

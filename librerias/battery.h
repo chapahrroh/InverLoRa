@@ -1,7 +1,7 @@
 #ifndef INVERLORA__BATTERY_H
 #define INVERLORA__BATTERY_H
 
-#include "puertoAnalogo.h"
+#include "Hardware/puertoAnalogo.h"
 
 namespace InverLoRa
 {
